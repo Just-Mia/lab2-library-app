@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky",
-    "start": "webpack serve --mode development",
-    "build": "webpack --mode production"
-  },
+  "start": "vite",
+  "build": "vite build",
+  "test": "mocha",
+  "deploy": "gh-pages -d dist"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -23,19 +23,15 @@
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.6",
-    "html-webpack-plugin": "^5.6.8",
     "husky": "^9.1.7",
     "mocha": "^12.0.2",
     "prettier": "^3.9.8",
     "sass": "^1.104.1",
     "sass-loader": "^17.0.1",
     "style-loader": "^4.0.0",
-    "ts-loader": "^9.6.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3",
-    "webpack": "^5.111.1",
-    "webpack-cli": "^7.2.3",
-    "webpack-dev-server": "^6.0.0"
+    "vite": "^8.3.0"
   },
   "dependencies": {
     "bootstrap": "^5.3.8"
