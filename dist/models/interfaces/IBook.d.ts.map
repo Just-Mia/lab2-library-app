@@ -1,0 +1,1 @@
+{"version":3,"file":"IBook.d.ts","sourceRoot":"","sources":["../../../src/models/interfaces/IBook.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,KAAK;IACpB,EAAE,EAAE,MAAM,CAAC;IACX,KAAK,EAAE,MAAM,CAAC;IACd,MAAM,EAAE,MAAM,CAAC;IACf,IAAI,EAAE,MAAM,CAAC;IACb,UAAU,EAAE,OAAO,CAAC;IACpB,UAAU,CAAC,EAAE,MAAM,GAAG,IAAI,CAAC;CAC5B"}
